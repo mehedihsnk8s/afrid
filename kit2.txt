@@ -1,0 +1,29 @@
+curl https://raw.githubusercontent.com/projectcalico/calico/v3.24.1/manifests/calico.yaml -O
+95  kubectl apply -f calico.yaml
+   96  kubectl get nodes
+   97  kubectl get pods -n kube-system
+   98  kubectl get nodes
+   99  kubectl get pods -n kube-system
+  100  kubectl get nodes
+  101  kubectl get pods -n kube-system
+  102  kubectl get nodes
+  103  kubectl get pods -n kube-system
+  104  kubectl get nodes
+  105  kubectl get pods -n kube-system
+  106  kubectl run web-srv --image=nginx
+  107  kubectl get pods
+  108  kubectl get pods -w
+  109  kubectl get pods
+  110  kubectl get pods -o wide
+  111  kubectl get nodes
+  112  kubectl get pods
+  113  kubectl get service
+  114  kubectl get svc
+  115  kubectl expose pod web-srv --port=80 --type=NodePort --name=funapp.com
+  116  kubectl expose pod web-srv --port=80 --type=NodePort --name=funapp-com
+  117  kubectl get svc
+  118  ifconfig
+  119  kubectl get nodes
+  120  kubectl get svc
+  121  kubectl get pods
+  122  kubectl describe pod web-srv
